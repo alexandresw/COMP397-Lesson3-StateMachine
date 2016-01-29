@@ -1,4 +1,5 @@
 /// <reference path="../config/_references.ts" />
+var CScreen = config.Screen;
 // GLOBAL GAME FRAMEWORK VARIABLES
 var canvas;
 var stage;
@@ -13,7 +14,7 @@ function init() {
     canvas = document.getElementById("canvas"); // reference to canvas element
     stage = new createjs.Stage(canvas); // passing canvas to stage
     stage.enableMouseOver(20); // enable mouse events
-    createjs.Ticker.setFPS(60); // set frame rate to 60 fps
+    createjs.Ticker.setFPS(config.Game.FPS); // set frame rate to 60 fps
     createjs.Ticker.on("tick", gameLoop); // update gameLoop every frame
     setupStats(); // sets up our stats counting
     state = config.MENU_STATE;

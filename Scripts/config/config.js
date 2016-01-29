@@ -4,5 +4,24 @@ var config;
     config.MENU_STATE = 0;
     config.PLAY_STATE = 1;
     config.OVER_STATE = 2;
+    // Screen Constants 
+    var Screen = (function () {
+        function Screen() {
+        }
+        Screen.WIDTH = 640;
+        Screen.HEIGHT = 480;
+        Screen.CENTER_X = (Screen.WIDTH / 2);
+        Screen.CENTER_Y = (Screen.HEIGHT / 2);
+        return Screen;
+    })();
+    config.Screen = Screen;
+    // Game Constants
+    var Game = (function () {
+        function Game() {
+        }
+        Game.FPS = 60;
+        return Game;
+    })();
+    config.Game = Game;
 })(config || (config = {}));
 //# sourceMappingURL=config.js.map

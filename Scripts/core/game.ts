@@ -1,5 +1,8 @@
 ﻿/// <reference path="../config/_references.ts" />
 
+import CScreen = config.Screen;
+
+
 // GLOBAL GAME FRAMEWORK VARIABLES
 var canvas: HTMLElement;
 var stage: createjs.Stage;
