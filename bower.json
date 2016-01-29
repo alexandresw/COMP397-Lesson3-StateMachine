@@ -1,0 +1,22 @@
+{
+  "name": "COMP397-Lesson3",
+  "homepage": "http://comp397-w2016-statemachine2.azurewebsites.net/",
+  "authors": [
+    "Alexandre Watanabe <alexandresw@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    // "jquery": "~2.2.0",
+    // "bootstrap": "~3.3.6"
+  }
+}
